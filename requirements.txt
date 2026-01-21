@@ -1,9 +1,10 @@
 pandas==2.3.3
 Pillow==10.2.0
-streamlit-folium
+streamlit==folium
 streamlit==1.52.2
 numpy==2.3.5
 plotly==6.5.0
 python==3.11
+
 
 
