@@ -4,5 +4,6 @@ streamlit-folium
 streamlit==1.52.2
 numpy==2.3.5
 plotly==6.5.0
-python-3.11
+python==3.11
+
 
