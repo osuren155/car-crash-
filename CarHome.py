@@ -5,7 +5,7 @@ import streamlit as st
 st.markdown("""<h1 style='text-align:center;'>
                 Car Crashes Data Analysis  </h1>""", unsafe_allow_html=True)
 
-
+st.image("suren.avif", width=900)
 
 st.markdown("""
 ## Car Crashes Data Analysis 
@@ -48,6 +48,7 @@ st.markdown(
     "<p style='text-align:center; color:grey;'>Created by Surendra Oraon | Streamlit Dashboard</p>",
     unsafe_allow_html=True
 )
+
 
 
 
