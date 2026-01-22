@@ -4,8 +4,3 @@ seaborn
 plotly
 matplotlib
 numpy
-
-
-
-
-
