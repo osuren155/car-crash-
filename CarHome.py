@@ -1,39 +1,20 @@
-# cd "D:\Python\python\car crash"
-
-# py -m streamlit run CarHome.py
-
 import streamlit as st
-from PIL import Image
-import os
 
-# ---------------- PAGE CONFIG ----------------
-st.set_page_config(
-    page_title="Car Crash Analysis",
-    page_icon="🚗",
-    layout="wide"
-)
+st.markdown("""<h1 style='text-align:center;'>
+                Car Crashes Data Analysis  </h1>""", unsafe_allow_html=True)
 
-# ---------------- TITLE ----------------
-st.markdown(
-    "<h1 style='text-align:center;'>🚗 Car Crashes Data Analysis</h1>",
-    unsafe_allow_html=True
-)
+st.image("D:\suren.avif", width=900)
 
-st.markdown("<hr>", unsafe_allow_html=True)
+st.markdown("""
+## Car Crashes Data Analysis 
 
-# ---------------- DEBUG (REMOVE LATER IF YOU WANT) ----------------
-st.write("Files in current directory:", os.listdir())
+This dashboard presents a comprehensive analysis of car crash data across different states, focusing on key risk factors such as alcohol consumption, speeding, and driver behavior.  
+The objective of this analysis is to identify high-risk and low-risk regions, understand accident patterns, and evaluate their impact on insurance premiums and losses.
 
-# ---------------- IMAGE SECTION ----------------
-try:
-    img = Image.open("D:\car crash\suren.avif")
-   
-    st.image(img, use_container_width=True)
-except Exception as e:
-    st.error("❌ Image load nahi ho pa rahi. File name ya path check karo.")
-    st.exception(e)
+By leveraging data-driven insights, this dashboard helps insurance companies, analysts, and decision-makers design effective risk-based pricing strategies, optimize policy offerings, and promote road safety initiatives.
+""") 
 
-# ---------------- DESCRIPTION ----------------
+
 st.markdown("""
 ## 📊 Project Overview
 
@@ -61,11 +42,12 @@ to design **risk-based pricing strategies**, optimize policies, and promote **ro
 
 st.markdown("<hr>", unsafe_allow_html=True)
 
-# ---------------- FOOTER ----------------
 st.markdown(
-    "<p style='text-align:center; color:grey;'>Created by Surend | Streamlit Dashboard</p>",
+    "<p style='text-align:center; color:grey;'>Created by Surendra Oraon | Streamlit Dashboard</p>",
     unsafe_allow_html=True
 )
+
+
 
 
 
