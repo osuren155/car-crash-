@@ -26,7 +26,8 @@ st.write("Files in current directory:", os.listdir())
 
 # ---------------- IMAGE SECTION ----------------
 try:
-    img = Image.open("suren.avif")   # image MUST be in same folder
+    img = Image.open("D:\car crash\suren.avif")
+   
     st.image(img, use_container_width=True)
 except Exception as e:
     st.error("❌ Image load nahi ho pa rahi. File name ya path check karo.")
@@ -65,6 +66,7 @@ st.markdown(
     "<p style='text-align:center; color:grey;'>Created by Surend | Streamlit Dashboard</p>",
     unsafe_allow_html=True
 )
+
 
 
 
